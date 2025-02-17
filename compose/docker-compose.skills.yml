@@ -206,7 +206,7 @@ services:
     container_name: ovos_skill_wordnet
     hostname: ovos_skill_wordnet
     restart: unless-stopped
-    image: docker.io/smartgic/ovos-skill-wordnet:${VERSION}
+    image: docker.io/smartgic/ovos-skill-wordnet:latest
     logging: *default-logging
     pull_policy: $PULL_POLICY
     environment:
